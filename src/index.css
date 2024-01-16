@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@media screen and (max-width:450px) {
+    .destop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .home{
+        padding: 0.5rem 1rem;
+        text-align: center;
+        height: auto;
+    }
+    .mobile-text,.mobil-pre {
+        width: 90%;
+        height: 100px;
+    }
+    .mobile-button {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    .btn-mob {
+        width: 80px;
+        height: auto;
+        text-wrap: wrap;
+    }
+    .mobile-foot {
+        padding: 0 3rem;
+    }
+}

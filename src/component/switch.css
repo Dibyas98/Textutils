@@ -1,0 +1,32 @@
+.check{
+    display: block;
+    position: relative;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #D9D8DD;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+    /* border: 2px solid black; */
+}
+.check::after{
+    content: "";
+    position: absolute;
+    top: 0.15rem;
+    left: 0.15rem;
+   background-color: #F2F2F2;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+#switch:checked + .check::after{
+    translate: 1.4rem;
+    background-color: rgb(8, 84, 84);
+
+}
+#switch:checked + .check{
+    background-color: #6AFF82;
+}
+#switch{
+    display: none;
+}
