@@ -9,7 +9,7 @@
         display: none;
     }
     .mobile-nav{
-        display: block;
+        display: flex;
     }
     .home{
         padding: 0.5rem 1rem;

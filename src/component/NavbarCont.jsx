@@ -40,7 +40,7 @@ export default function NavbarCont() {
         </div>
         <Switch />
       </nav>
-      <div className='flex w-full justify-between p-5 sticky top-[-1px]' style={themeSet[ctTheme.theme]}>
+      <div className='mobile-nav flex w-full justify-between p-5 sticky top-[-1px]' style={themeSet[ctTheme.theme]}>
         <Menu className='' onClick={handelMenu} style={{ ...themeSet[ctTheme.theme], background: 'none' }}></Menu>
         <Switch></Switch>
       </div>
